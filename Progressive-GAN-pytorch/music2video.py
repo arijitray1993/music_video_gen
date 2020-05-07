@@ -7,6 +7,7 @@ import random
 import pdb
 import moviepy.editor as mpy
 from scipy.misc import toimage
+import argparse
 
 sys.path.append("../scripts")
 
@@ -65,15 +66,27 @@ class music_data(Dataset):
 
 
 if __name__=="__main__":
-    
+
+    parser = argparse.ArgumentParser(description='Generate video for a music file')
+
+    parser.add_argument('--input_file', type=str, default="../data/test_music/DMajor_backing_improv_jam_040420.mp3", help='path of the input music file')
+    parser.add_argument('--outname', type=str, default="../data/output_video/test_video.mp4")
+    parser.add_argument('--checkpoint', type=str, default='trial_test1_2020-04-23_1_59/checkpoint/300000_g.model')
+    args = parser.parse_args()
+
     ########## parameters #######################################################
     batch_size = 1
     fps = 10
     frame_batch=1 # number of frames the model is trained to generate at once
+    checkpoint_file = args.checkpoint
+    input_file = args.input_file
+    outname = args.outname
+    '''
     checkpoint_file = "trial_test1_2020-04-23_1_59/checkpoint/300000_g.model"
     
-    input_file = "../data/test_music/Laxed.mp3" # DMajor_backing_improv_jam_040420.mp3" # "../data/test_music/OSR_uk_000_0020_8k.wav"
-    outname="../data/output_video/test_video_smooth_cottonEye.mp4"
+    input_file = "../data/test_music/DMajor_backing_improv_jam_040420.mp3" # "../data/test_music/OSR_uk_000_0020_8k.wav"
+    outname="../data/output_video/test_video.mp4"
+    '''
     device = torch.device("cuda:0")
     ###############s##############################################################
     
