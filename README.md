@@ -34,7 +34,7 @@ To test on your own music file using a pretrained model, simply run:
 ```bash
 cd Progressive-GAN-pytorch
 python music2video.py --input_file /path/to/music.mp3 --outname /desired/output/videoname.mp4 --checkpoint optional/path/to/your_checkpoint_generator.pt
-# if you wish to use our checkpoint
+# if you wish to use our checkpoint, do not use the --checkpoint argument
 ```
 
 ### Acknowledgements
