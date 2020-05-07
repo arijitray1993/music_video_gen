@@ -30,6 +30,8 @@ python music2video.py --input_file /path/to/music.mp3 --outname /desired/output/
 # if you wish to use your own trained checkpoint
 ```
 
+### Acknowledgements
+_The NVIDIA Progressive GAN code was borrowed from https://github.com/odegeasslbc/Progressive-GAN-pytorch_
 
 
 
