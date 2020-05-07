@@ -1,5 +1,12 @@
 # Music Video Generation using Progressive GAN
 
+## Requirements
+
+```bash
+pip install librosa==0.7.2 torch==0.4.1 torchvision pillow scipy moviepy tqdm 
+```
+
+
 ## Train on custom data 
 To train on your own music videos, you will need to create a folder of music videos and their corresponding mp3's. 
 To do so, place music videos in a folder and do:
