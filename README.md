@@ -1,4 +1,4 @@
-# Music Video Generation using Progressive GAN
+# Music Video Generation using GAN's
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=9YrvgymhIJk
 " target="_blank"><img src="http://img.youtube.com/vi/9YrvgymhIJk/0.jpg" 
