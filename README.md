@@ -1,5 +1,10 @@
 # Music Video Generation using Progressive GAN
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=9YrvgymhIJk
+" target="_blank"><img src="http://img.youtube.com/vi/9YrvgymhIJk/0.jpg" 
+alt="generated video sample" width="400" border="10" /></a>
+
+
 ## Requirements
 
 ```bash
