@@ -43,7 +43,7 @@ python music2video.py --input_file /path/to/music.mp3 --outname /desired/output/
 ```
 
 ### Acknowledgements
-_The NVIDIA Progressive GAN code was borrowed from https://github.com/odegeasslbc/Progressive-GAN-pytorch_
+_The NVIDIA Progressive GAN code was modified from https://github.com/odegeasslbc/Progressive-GAN-pytorch_
 
 
 
