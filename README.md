@@ -37,6 +37,20 @@ python music2video.py --input_file /path/to/music.mp3 --outname /desired/output/
 # if you wish to use our checkpoint, do not use the --checkpoint argument
 ```
 
+### Citation
+
+If you use this code, please consider citing:
+
+```latex
+@misc{raymusicvideogen,
+      title={Swing Dance Video Generation using ProgressiveGAN}, 
+      author={Arijt Ray},
+      year={2020},
+      url={https://github.com/arijitray1993/music_video_gen/}
+}
+```
+
+
 ### Acknowledgements
 _The NVIDIA Progressive GAN code was modified from https://github.com/odegeasslbc/Progressive-GAN-pytorch_
 
