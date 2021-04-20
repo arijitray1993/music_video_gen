@@ -44,7 +44,7 @@ If you use this code, please consider citing:
 ```latex
 @misc{raymusicvideogen,
       title={Swing Dance Video Generation using ProgressiveGAN}, 
-      author={Arijt Ray},
+      author={Arijit Ray},
       year={2020},
       url={https://github.com/arijitray1993/music_video_gen/}
 }
